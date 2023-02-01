@@ -1,14 +1,15 @@
 import _ from 'lodash';
 import './style.css';
 
-function component() {
-  const element = document.createElement('div');
+import Github from './images/github.svg';
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
+const loadGithubIcon = () => {
+  const github = document.getElementById('github');
+  github.src = Github;
+  github.alt = 'github';
+  github.setAttribute('class', 'github-icon');
+};
 
-  return element;
-}
-
-document.body.appendChild(component());
+window.onload = () => {
+  loadGithubIcon();
+};

@@ -16,23 +16,24 @@
 <div class="col1">
     <div class="col1_1">
         <h2 class="hed1">Recent scores</h2>
-         <button class="btn1">Refresh</button>
+         <button id="refresh" class="btn1">Refresh</button>
     </div>
-    <div class="data">
+    <div class="data" id="displ">
+       <!-- <p>Name:100</p>
         <p>Name:100</p>
         <p>Name:100</p>
         <p>Name:100</p>
         <p>Name:100</p>
         <p>Name:100</p>
         <p>Name:100</p>
-        <p>Name:100</p>
+        -->
     </div>
 </div>
-<div class="col2">
+<div class="col2" id="form">
     <h2 class="hed2">Add your score</h2>
-    <input type="text" placeholder="Your name">
-    <input type="text" placeholder="Your score">
-    <button class="btn2">Submit</button> 
+    <input type="text" name="name" placeholder="Your name">
+    <input type="text" name="point" placeholder="Your score">
+    <button id="submit" class="btn2">Submit</button> 
 </div>
 </section>
 

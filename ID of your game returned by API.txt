@@ -1,0 +1,19 @@
+*)Create new game on the following link for POST (https://reqbin.com/post-online)
+
+
+Add:
+https://us-central1-js-capstone-backend.cloudfunctions.net/api/games
+
+JSON:
+{ 
+	"name": "Jugoslav" 
+}
+
+
+Return value: unique identifier for the game
+
+object
+{1}
+result
+:
+Game with ID: 77zt5vjBvubUkAonDu7q added.

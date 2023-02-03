@@ -38,18 +38,18 @@
 .hed0 {
   margin-left: 2rem;
 }
-.hed1{
+
+.hed1 {
   color: white;
   text-decoration: overline;
-  text-decoration-color:black;
-  
+  text-decoration-color: black;
 }
 
 .hed2 {
   margin-left: 5rem;
-  color:white;
+  color: white;
   text-decoration: overline;
-  text-decoration-color:black;
+  text-decoration-color: black;
 }
 
 .btn1 {
@@ -75,7 +75,6 @@
 .data {
   border: 1px solid #7d1313;
   margin: 0 5rem 0 5rem;
-  
 }
 
 .col2 {
@@ -88,9 +87,8 @@
   background-color: lightyellow;
   border-radius: 30px;
   border: 1px solid #7d1313;
-  height:30px;
+  height: 30px;
 }
-
 
 .container_fluid {
   display: flex;
@@ -123,19 +121,19 @@ footer img {
   border-radius: 50%;
 }
 
-tbody{
-  display:flex;
+tbody {
+  display: flex;
   border-radius: 15px;
 }
 
 tbody:nth-child(even) {
   background: bisque;
 }
+
 tbody:nth-child(odd) {
   background: lightblue;
 }
-tbody tr{
+
+tbody tr {
   margin-left: 10px;
 }
-
-

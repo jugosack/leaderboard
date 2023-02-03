@@ -7,7 +7,7 @@
 }
 
 .container_1 {
-  width: 50%;
+  width: 55%;
   height: 50%;
   border: 5px solid #af3636;
   border-radius: 30px;
@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: burlywood;
+  
 }
 
 .main {
@@ -23,18 +24,23 @@
 }
 
 .col1 {
+  width:100%;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
 }
 
 .col1_1 {
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 5rem 0 5rem;
+  margin: 0 5rem 0 2rem;
 }
-
+.col01{
+  display: flex;
+  flex-direction:column;
+}
 .hed0 {
   margin-left: 2rem;
 }
@@ -64,7 +70,6 @@
 
 .btn2 {
   width: 70px;
-  margin-left: 20rem;
   background-color: dodgerblue;
   color: white;
   border-radius: 10px;
@@ -74,21 +79,28 @@
 
 .data {
   border: 1px solid #7d1313;
-  margin: 0 5rem 0 5rem;
+  width: 80%;
+  margin: 0 5rem 0 2rem;
 }
 
 .col2 {
   display: flex;
   flex-direction: column;
+  margin: 0rem 2rem 0rem 5rem;
+  width:300px;
+  
+  align-items: flex-end;
 }
 
 .col2 > input {
-  margin: 0 5rem 1rem 5rem;
+  width:100%;
+  margin: 0 0rem 1rem 0rem;
   background-color: lightyellow;
   border-radius: 30px;
   border: 1px solid #7d1313;
   height: 30px;
 }
+
 
 .container_fluid {
   display: flex;

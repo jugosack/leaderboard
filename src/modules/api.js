@@ -25,13 +25,10 @@ export const postScore = async (name, point) => {
 export const display = (game) => {
   const displ = document.getElementById('displ');
   const tbody = document.createElement('tbody');
-
   const gameElement = document.createElement('tr');
-
   gameElement.innerHTML = `
         <td>${game.user}: ${game.score}</td>
       `;
-
   tbody.appendChild(gameElement);
   displ.appendChild(tbody);
 };

@@ -1,5 +1,12 @@
 # leaderboard
 
+<div align="center">
+  <h1><b>LEADERBOARD</b></h1>
+  <br />
+  <img src="./src/images/leaderboard.png" alt="screenshot" width="80%"  height="80%" />
+  <br />
+</div>
+
 <p id="readme-top">My Microverse leaderboard
  project (Module two)</p>
 

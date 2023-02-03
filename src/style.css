@@ -15,7 +15,6 @@
   flex-direction: column;
   justify-content: center;
   background-color: burlywood;
-  
 }
 
 .main {
@@ -24,7 +23,7 @@
 }
 
 .col1 {
-  width:100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
@@ -37,10 +36,12 @@
   justify-content: space-between;
   margin: 0 5rem 0 2rem;
 }
-.col01{
+
+.col01 {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
 }
+
 .hed0 {
   margin-left: 2rem;
 }
@@ -86,21 +87,19 @@
 .col2 {
   display: flex;
   flex-direction: column;
-  margin: 0rem 2rem 0rem 5rem;
-  width:300px;
-  
+  margin: 0 2rem 0 5rem;
+  width: 300px;
   align-items: flex-end;
 }
 
 .col2 > input {
-  width:100%;
-  margin: 0 0rem 1rem 0rem;
+  width: 100%;
+  margin: 0 0 1rem 0;
   background-color: lightyellow;
   border-radius: 30px;
   border: 1px solid #7d1313;
   height: 30px;
 }
-
 
 .container_fluid {
   display: flex;
